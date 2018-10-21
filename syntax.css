@@ -1,3 +1,4 @@
-#sub-content p{
-    color: red;
+#main-content > p{
+    color: blue;
+    font-family: "Liberation Sans";
 }
