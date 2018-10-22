@@ -1,17 +1,11 @@
-span[class^="deck"]{
-    color: purple;
-}
-
-div[id]{
-    background: grey;
-}
-a[href$="pdf"]{
+a:hover{
     color: red;
 }
-a[title="Google"] {
-    color: aqua;
+
+#main-content:hover{
+    background: red;
 }
 
-div[id="header"]{
-    color: red;
+h1:hover{
+    color: green;
 }
