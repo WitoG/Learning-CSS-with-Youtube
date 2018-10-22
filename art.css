@@ -1,7 +1,19 @@
-article p:nth-child(2){
+article p:first-of-type{
     font-weight: bold;
 }
 
-article p:last-child{
+article p:last-of-type{
     color: red;
+}
+
+article p:nth-child(even){
+    font-weight: bold;
+}
+
+article p:nth-child(odd){
+    background: pink;
+}
+
+article p:nth-child(3n + 1){
+    color: green;
 }
