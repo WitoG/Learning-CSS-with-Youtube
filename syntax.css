@@ -9,3 +9,11 @@ a:hover{
 h1:hover{
     color: green;
 }
+
+a:active{
+    color: orange;
+}
+
+a:visited{
+    color: purple;
+}
