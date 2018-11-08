@@ -1,7 +1,33 @@
 article{
-    text-decoration: overline;
+    text-decoration: none;
+    
+}
+
+h1{
+    text-transform: capitalize;
+}
+
+p{
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 2em;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+h2{
+    text-transform: uppercase;
 }
 
 a{
-    text-decoration: line-through;
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:hover{
+    color: darkmagenta;
+    background-color: aquamarine;
 }
